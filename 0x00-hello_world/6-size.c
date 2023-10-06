@@ -1,16 +1,17 @@
-#include <stdio.h>
+#include <stdio>
 
 /**
- * main - main function
+ * main - to print the size of data types
  *
- * Return: 0 on success
+ * Return: (0)
+ *
  */
 
 int main(void)
 {
 	char a;
 	int b;
-	long c;
+	long int c;
 	long long int d;
 	float e;
 
