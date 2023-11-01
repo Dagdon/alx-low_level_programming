@@ -32,10 +32,11 @@ char *argstostr(int ac, char **av)
 			out[c] = av[a][b];
 			c++;
 		}
-	}
+
 		if (out[c] == '\0')
 		{
 			out[c++] = '\n';
 		}
+	}
 	return (out);
 }
