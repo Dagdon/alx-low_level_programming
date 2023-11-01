@@ -10,7 +10,7 @@
 char *argstostr(int ac, char **av)
 {
 	char *out;
-	int a, b, c, l = 0;
+	int a, b, c = 0, l = 0;
 
 	if (ac == 0 || av == NULL)
 		return (NULL);
@@ -28,12 +28,14 @@ char *argstostr(int ac, char **av)
 	for (a = 0; a < ac; a++)
 	{
 		for (b = 0; av[a][b]; b++)
+		{
 			out[c] = av[a][b];
-		c++;
+			c++;
+		}
 	}
-	if (out[c] == '\0')
-	{
-		out[c++] = '\n';
-	}
+		if (out[c] == '\0')
+		{
+			out[c++] = '\n';
+		}
 	return (out);
 }
