@@ -2,7 +2,7 @@
 
 /**
  * _calloc - allocates memory for an array
- * @nmeb: number of memoery blocks
+ * @nmemb: number of memoery blocks
  * @size: size of element
  * Return: pointer
  */
