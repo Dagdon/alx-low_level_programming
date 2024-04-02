@@ -1,6 +1,7 @@
 #include "main.h"
 /**
- * print_times_table print n times table
+ * i
+ * print_times_table - print n times table
  * @n: function parameter
  */
 void print_times_table(int n)
