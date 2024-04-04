@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * int factorial - returns factoria of a number
+ * factorial - returns factoria of a number
  * @n: number
  * Return: number
  */
